@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def data(object_name):
+def data():
     return "No data found !!"
 
 if __name__=='__main__':
